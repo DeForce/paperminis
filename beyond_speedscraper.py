@@ -118,8 +118,8 @@ for page in result:
         monsters[monster.name] = {
             'name': monster.name,
             'source': monster.source,
-            'type': monster.type,
-            'size': monster.size,
+            'creature_type': monster.type,
+            'creature_size': monster.size,
             'alignment': monster.alignment,
             'CR': monster.cr,
             'img_url': monster.image
